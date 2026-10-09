@@ -15,7 +15,7 @@
           "iconUrl": "https://raw.githubusercontent.com/helthstin/kairead-extensions-source/main/src/es/dragontranslationorg/res/mipmap-xhdpi/ic_launcher.png"
         },
         "extensionLib": "1.6",
-        "versionCode": "106064",
+        "versionCode": 106064,
         "versionName": "1.6.64",
         "contentWarning": "CONTENT_WARNING_MIXED",
         "sources": []
