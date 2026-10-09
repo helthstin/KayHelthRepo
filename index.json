@@ -1,25 +1,8 @@
 {
-  "name": "KayHelthRepo",
-  "badgeLabel": "KAY",
-  "signingKey": "3304c64227a5d7cd43e098ac1b571a5a9a3b203bb9d1c59060d66fc1e03a9210",
-  "contact": {
-    "website": "https://github.com/helthstin/KayHelthRepo"
-  },
-  "extensionList": {
-    "extensions": [
-      {
-        "name": "DragonTranslation.org",
-        "packageName": "eu.kanade.tachiyomi.extension.es.dragontranslationorg",
-        "resources": {
-          "apkUrl": "https://helthstin.github.io/KayHelthRepo/apk/tachiyomi-es.dragontranslationorg-v1.6.64.apk",
-          "iconUrl": "https://raw.githubusercontent.com/helthstin/kairead-extensions-source/main/src/es/dragontranslationorg/res/mipmap-xhdpi/ic_launcher.png"
-        },
-        "extensionLib": "1.6",
-        "versionCode": 106064,
-        "versionName": "1.6.64",
-        "contentWarning": "CONTENT_WARNING_MIXED",
-        "sources": []
-      }
-    ]
+  "meta": {
+    "name": "KayHelthRepo",
+    "shortName": "KAY",
+    "website": "https://github.com/helthstin/KayHelthRepo",
+    "signingKeyFingerprint": "3304c64227a5d7cd43e098ac1b571a5a9a3b203bb9d1c59060d66fc1e03a9210"
   }
 }
