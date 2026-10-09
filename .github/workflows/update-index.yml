@@ -6,8 +6,7 @@ on:
     paths:
       - 'apk/**'
       - 'index.json'
-      - 'scripts/index.proto'
-      - 'scripts/build_index.py'
+      - 'scripts/**'
       - '.github/workflows/update-index.yml'
   workflow_dispatch:
 
@@ -17,29 +16,98 @@ permissions:
 jobs:
   generate:
     runs-on: ubuntu-latest
+
     steps:
       - name: Descargar repositorio
         uses: actions/checkout@v4
+
       - name: Preparar Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Instalar herramientas Protocol Buffers
+
+      - name: Instalar Protocol Buffers
         run: python -m pip install 'protobuf==5.29.5' 'grpcio-tools==1.71.0'
-      - name: Generar código del esquema
+
+      - name: Generar código Protobuf
         run: python -m grpc_tools.protoc -Iscripts --python_out=scripts scripts/index.proto
+
       - name: Generar index.pb
         run: python scripts/build_index.py
-      - name: Guardar índice actualizado
+
+      - name: Generar index.min.json
         run: |
-          if ! git diff --quiet -- index.pb; then
-            git config user.name 'github-actions[bot]'
-            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-            git add index.pb
-            git commit -m 'Actualizar index.pb automáticamente'
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          from urllib.parse import urlparse
+
+          root = Path(".")
+          index = json.loads((root / "index.json").read_text())
+          path = root / "index.min.json"
+
+          previous = json.loads(path.read_text()) if path.exists() else []
+          previous_by_pkg = {item["pkg"]: item for item in previous}
+
+          extensions = []
+
+          for ext in index["extensionList"]["extensions"]:
+              pkg = ext["packageName"]
+              old = previous_by_pkg.get(pkg, {})
+              sources = ext.get("sources", [])
+
+              languages = {s["language"] for s in sources}
+              lang = (
+                  next(iter(languages)) if len(languages) == 1
+                  else "all" if languages
+                  else old.get("lang")
+              )
+
+              if not lang:
+                  raise ValueError(f"Falta idioma para {pkg}")
+
+              apk_url = ext["resources"]["apkUrl"]
+              apk = Path(urlparse(apk_url).path).name
+
+              if not (root / "apk" / apk).is_file():
+                  raise FileNotFoundError(f"APK no encontrada: {apk}")
+
+              extensions.append({
+                  "name": ext["name"],
+                  "pkg": pkg,
+                  "apk": apk,
+                  "lang": lang,
+                  "code": int(ext["versionCode"]),
+                  "version": ext["versionName"],
+                  "nsfw": 1 if ext.get("contentWarning") == "CONTENT_WARNING_NSFW" else 0,
+                  "sources": [
+                      {
+                          "id": int(s["id"]),
+                          "lang": s["language"],
+                          "name": s["name"],
+                          "baseUrl": s.get("homeUrl", "")
+                      }
+                      for s in sources
+                  ] if sources else old.get("sources", [])
+              })
+
+          path.write_text(
+              json.dumps(extensions, ensure_ascii=False, indent=2) + "\n"
+          )
+
+          print(f"Catálogo generado: {len(extensions)} extensiones")
+          PY
+
+      - name: Publicar catálogos actualizados
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+
+          git add index.pb index.min.json
+
+          if ! git diff --cached --quiet; then
+            git commit -m 'Actualizar catálogos Kairead automáticamente'
             git push
           else
-            echo 'El catálogo ya está actualizado.'
+            echo 'Los catálogos ya están actualizados.'
           fi
-          
-
