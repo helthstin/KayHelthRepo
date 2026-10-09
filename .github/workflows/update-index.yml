@@ -1,0 +1,33 @@
+name: Actualizar catálogo Kairead
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - index.json
+      - scripts/index.proto
+      - scripts/build_index.py
+      - .github/workflows/update-index.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Instalar herramientas Protocol Buffers
+        run: python -m pip install 'protobuf==5.29.5' 'grpcio-tools==1.71.0'
+      - name: Generar código del esquema
+        run: python -m grpc_tools.protoc -Iscripts --python_out=scripts scripts/index.proto
+      - name: Generar index.pb
+        run: python scripts/build_index.py
+      - name: Guardar índice actualizado
+        run: | if ! git diff --quiet -- index.pb; then git config user.name 'github-actions[bot]' git config user.email '41898282+github-actions[bot]@users.noreply.github.com' git add index.pb git commit -m 'Actualizar index.pb automáticamente' git push else echo 'El catálogo ya está actualizado.' fi
