@@ -11,7 +11,8 @@
         "name": "DragonTranslation.org",
         "packageName": "eu.kanade.tachiyomi.extension.es.dragontranslationorg",
         "resources": {
-          "apkUrl": "https://github.com/helthstin/KayHelthRepo/releases/download/v1.0.0/tachiyomi-es.dragontranslationorg-v1.6.64.apk"
+          "apkUrl": "https://github.com/helthstin/KayHelthRepo/releases/download/v1.0.0/tachiyomi-es.dragontranslationorg-v1.6.64.apk",
+          "iconUrl": "https://raw.githubusercontent.com/helthstin/kairead-extensions-source/main/src/es/dragontranslationorg/res/mipmap-xhdpi/ic_launcher.png"
         },
         "extensionLib": "1.6",
         "versionCode": "106064",
