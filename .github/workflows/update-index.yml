@@ -4,10 +4,11 @@ on:
   push:
     branches: [main]
     paths:
-      - index.json
-      - scripts/index.proto
-      - scripts/build_index.py
-      - .github/workflows/update-index.yml
+      - 'apk/**'
+      - 'index.json'
+      - 'scripts/index.proto'
+      - 'scripts/build_index.py'
+      - '.github/workflows/update-index.yml'
   workflow_dispatch:
 
 permissions:
