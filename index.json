@@ -19,6 +19,26 @@
         "versionName": "1.6.64",
         "contentWarning": "CONTENT_WARNING_MIXED",
         "sources": []
+      },
+      {
+        "name": "BatCave",
+        "packageName": "eu.kanade.tachiyomi.extension.en.batcave",
+        "resources": {
+          "apkUrl": "https://helthstin.github.io/KayHelthRepo/apk/tachiyomi-en.batcave-v1.6.12.apk",
+          "iconUrl": "https://raw.githubusercontent.com/helthstin/kairead-extensions-source/main/src/en/batcave/res/mipmap-xhdpi/ic_launcher.png"
+        },
+        "extensionLib": "1.6",
+        "versionCode": 106012,
+        "versionName": "1.6.12",
+        "contentWarning": "CONTENT_WARNING_SAFE",
+        "sources": [
+          {
+            "id": 0,
+            "name": "BatCave",
+            "language": "en",
+            "homeUrl": "https://batcave.biz"
+          }
+        ]
       }
     ]
   }
