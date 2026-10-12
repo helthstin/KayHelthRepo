@@ -11,14 +11,21 @@
         "name": "DragonTranslation.org",
         "packageName": "eu.kanade.tachiyomi.extension.es.dragontranslationorg",
         "resources": {
-          "apkUrl": "https://helthstin.github.io/KayHelthRepo/apk/tachiyomi-es.dragontranslationorg-v1.6.119.apk",
+          "apkUrl": "https://helthstin.github.io/KayHelthRepo/apk/tachiyomi-es.dragontranslationorg-v1.6.120.apk",
           "iconUrl": "https://raw.githubusercontent.com/helthstin/kairead-extensions-source/main/src/es/dragontranslationorg/res/mipmap-xhdpi/ic_launcher.png"
         },
         "extensionLib": "1.6",
-        "versionCode": 106119,
-        "versionName": "1.6.119",
+        "versionCode": 106120,
+        "versionName": "1.6.120",
         "contentWarning": "CONTENT_WARNING_MIXED",
-        "sources": []
+        "sources": [
+          {
+            "id": 4647982373411241498,
+            "name": "DragonTranslation.org",
+            "language": "es",
+            "homeUrl": "https://dragontranslation.org"
+          }
+        ]
       },
       {
         "name": "BatCave",
