@@ -428,6 +428,26 @@
             "homeUrl": "https://mangafire.to"
           }
         ]
+      },
+      {
+        "name": "Submanhwa",
+        "packageName": "eu.kanade.tachiyomi.extension.es.submanhwa",
+        "resources": {
+          "apkUrl": "https://helthstin.github.io/KayHelthRepo/apk/kairead-es.submanhwa-v1.6.1.apk",
+          "iconUrl": "https://raw.githubusercontent.com/helthstin/kairead-extensions-source/main/src/es/submanhwa/res/mipmap-xhdpi/ic_launcher.png"
+        },
+        "extensionLib": "1.6",
+        "versionCode": 106001,
+        "versionName": "1.6.1",
+        "contentWarning": "CONTENT_WARNING_NSFW",
+        "sources": [
+          {
+            "id": 1136717301008230074,
+            "name": "Submanhwa",
+            "language": "es",
+            "homeUrl": "https://submanhwa.com"
+          }
+        ]
       }
     ]
   }
