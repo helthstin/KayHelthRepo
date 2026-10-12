@@ -46,6 +46,26 @@
             "homeUrl": "https://batcave.biz"
           }
         ]
+      },
+      {
+        "name": "Ikigai Mangas",
+        "packageName": "eu.kanade.tachiyomi.extension.es.ikigaimangas",
+        "resources": {
+          "apkUrl": "https://helthstin.github.io/KayHelthRepo/apk/tachiyomi-es.ikigaimangas-v1.6.40.apk",
+          "iconUrl": "https://raw.githubusercontent.com/helthstin/kairead-extensions-source/main/src/es/ikigaimangas/res/mipmap-xhdpi/ic_launcher.png"
+        },
+        "extensionLib": "1.6",
+        "versionCode": 106040,
+        "versionName": "1.6.40",
+        "contentWarning": "CONTENT_WARNING_MIXED",
+        "sources": [
+          {
+            "id": 7749406396573482811,
+            "name": "Ikigai Mangas",
+            "language": "es",
+            "homeUrl": "https://visorikigai.gettocaboca.com"
+          }
+        ]
       }
     ]
   }
