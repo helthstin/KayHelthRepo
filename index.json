@@ -372,6 +372,62 @@
             "homeUrl": "https://manhwaweb.com"
           }
         ]
+      },
+      {
+        "name": "MangaFire",
+        "packageName": "eu.kanade.tachiyomi.extension.all.mangafire",
+        "resources": {
+          "apkUrl": "https://helthstin.github.io/KayHelthRepo/apk/kairead-all.mangafire-v1.6.34.apk",
+          "iconUrl": "https://raw.githubusercontent.com/helthstin/kairead-extensions-source/main/src/all/mangafire/res/mipmap-xhdpi/ic_launcher.png"
+        },
+        "extensionLib": "1.6",
+        "versionCode": 106034,
+        "versionName": "1.6.34",
+        "contentWarning": "CONTENT_WARNING_MIXED",
+        "sources": [
+          {
+            "id": 6084907896154116083,
+            "name": "MangaFire",
+            "language": "en",
+            "homeUrl": "https://mangafire.to"
+          },
+          {
+            "id": 8098539940032331958,
+            "name": "MangaFire",
+            "language": "es",
+            "homeUrl": "https://mangafire.to"
+          },
+          {
+            "id": 3849324770075062403,
+            "name": "MangaFire",
+            "language": "es-419",
+            "homeUrl": "https://mangafire.to"
+          },
+          {
+            "id": 6228021941803932286,
+            "name": "MangaFire",
+            "language": "fr",
+            "homeUrl": "https://mangafire.to"
+          },
+          {
+            "id": 524110931382140732,
+            "name": "MangaFire",
+            "language": "ja",
+            "homeUrl": "https://mangafire.to"
+          },
+          {
+            "id": 758400875161895515,
+            "name": "MangaFire",
+            "language": "pt",
+            "homeUrl": "https://mangafire.to"
+          },
+          {
+            "id": 7842137233968841729,
+            "name": "MangaFire",
+            "language": "pt-BR",
+            "homeUrl": "https://mangafire.to"
+          }
+        ]
       }
     ]
   }
