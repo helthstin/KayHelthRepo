@@ -548,6 +548,26 @@
             "homeUrl": "https://fanfox.net"
           }
         ]
+      },
+      {
+        "name": "Mangalect",
+        "packageName": "eu.kanade.tachiyomi.extension.es.leermangaesp",
+        "resources": {
+          "apkUrl": "https://helthstin.github.io/KayHelthRepo/apk/kairead-es.leermangaesp-v1.6.0.apk",
+          "iconUrl": "https://raw.githubusercontent.com/helthstin/kairead-extensions-source/main/src/es/leermangaesp/res/mipmap-xhdpi/ic_launcher.png"
+        },
+        "extensionLib": "1.6",
+        "versionCode": 106000,
+        "versionName": "1.6.0",
+        "contentWarning": "CONTENT_WARNING_MIXED",
+        "sources": [
+          {
+            "id": 6164290477847662183,
+            "name": "Mangalect",
+            "language": "es",
+            "homeUrl": "https://mangalect.org"
+          }
+        ]
       }
     ]
   }
