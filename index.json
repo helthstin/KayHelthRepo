@@ -357,12 +357,12 @@
         "name": "ManhwaWeb",
         "packageName": "eu.kanade.tachiyomi.extension.es.manhwaweb",
         "resources": {
-          "apkUrl": "https://helthstin.github.io/KayHelthRepo/apk/kairead-es.manhwaweb-v1.6.13.apk",
+          "apkUrl": "https://helthstin.github.io/KayHelthRepo/apk/kairead-es.manhwaweb-v1.6.14.apk",
           "iconUrl": "https://raw.githubusercontent.com/helthstin/kairead-extensions-source/main/src/es/manhwaweb/res/mipmap-xhdpi/ic_launcher.png"
         },
         "extensionLib": "1.6",
-        "versionCode": 106013,
-        "versionName": "1.6.13",
+        "versionCode": 106014,
+        "versionName": "1.6.14",
         "contentWarning": "CONTENT_WARNING_MIXED",
         "sources": [
           {
