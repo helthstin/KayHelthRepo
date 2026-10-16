@@ -768,6 +768,62 @@
             "homeUrl": "https://www.kazokuden.com"
           }
         ]
+      },
+      {
+        "name": "NovelCool",
+        "packageName": "eu.kanade.tachiyomi.extension.all.novelcool",
+        "resources": {
+          "apkUrl": "https://helthstin.github.io/KayHelthRepo/apk/kairead-all.novelcool-v1.6.0.apk",
+          "iconUrl": "https://raw.githubusercontent.com/helthstin/kairead-extensions-source/main/src/all/novelcool/res/mipmap-xhdpi/ic_launcher.png"
+        },
+        "extensionLib": "1.6",
+        "versionCode": 106000,
+        "versionName": "1.6.0",
+        "contentWarning": "CONTENT_WARNING_MIXED",
+        "sources": [
+          {
+            "id": 7570101320206504111,
+            "name": "NovelCool",
+            "language": "en",
+            "homeUrl": "https://www.novelcool.com"
+          },
+          {
+            "id": 438359803442833644,
+            "name": "NovelCool",
+            "language": "es",
+            "homeUrl": "https://es.novelcool.com"
+          },
+          {
+            "id": 4806085996472938237,
+            "name": "NovelCool",
+            "language": "de",
+            "homeUrl": "https://de.novelcool.com"
+          },
+          {
+            "id": 2000643041937250352,
+            "name": "NovelCool",
+            "language": "ru",
+            "homeUrl": "https://ru.novelcool.com"
+          },
+          {
+            "id": 1430309870605719983,
+            "name": "NovelCool",
+            "language": "it",
+            "homeUrl": "https://it.novelcool.com"
+          },
+          {
+            "id": 2431307934077353736,
+            "name": "NovelCool",
+            "language": "pt-BR",
+            "homeUrl": "https://br.novelcool.com"
+          },
+          {
+            "id": 1619259951234748770,
+            "name": "NovelCool",
+            "language": "fr",
+            "homeUrl": "https://fr.novelcool.com"
+          }
+        ]
       }
     ]
   }
