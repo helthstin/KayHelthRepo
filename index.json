@@ -648,6 +648,26 @@
             "homeUrl": "https://likemanga.ink"
           }
         ]
+      },
+      {
+        "name": "Ragnarok Scanlation",
+        "packageName": "eu.kanade.tachiyomi.extension.es.ragnarokscanlation",
+        "resources": {
+          "apkUrl": "https://helthstin.github.io/KayHelthRepo/apk/kairead-es.ragnarokscanlation-v1.6.58.apk",
+          "iconUrl": "https://raw.githubusercontent.com/helthstin/kairead-extensions-source/main/src/es/ragnarokscanlation/res/mipmap-xhdpi/ic_launcher.png"
+        },
+        "extensionLib": "1.6",
+        "versionCode": 106058,
+        "versionName": "1.6.58",
+        "contentWarning": "CONTENT_WARNING_SAFE",
+        "sources": [
+          {
+            "id": 1348827658894665970,
+            "name": "Ragnarok Scanlation",
+            "language": "es",
+            "homeUrl": "https://ragnarokscanlation.org"
+          }
+        ]
       }
     ]
   }
