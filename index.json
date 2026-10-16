@@ -964,6 +964,26 @@
             "homeUrl": "https://weebcentral.com"
           }
         ]
+      },
+      {
+        "name": "Olympus Scanlation",
+        "packageName": "eu.kanade.tachiyomi.extension.es.olympusscanlation",
+        "resources": {
+          "apkUrl": "https://helthstin.github.io/KayHelthRepo/apk/kairead-es.olympusscanlation-v1.6.0.apk",
+          "iconUrl": "https://raw.githubusercontent.com/helthstin/kairead-extensions-source/main/src/es/olympusscanlation/res/mipmap-xhdpi/ic_launcher.png"
+        },
+        "extensionLib": "1.6",
+        "versionCode": 106000,
+        "versionName": "1.6.0",
+        "contentWarning": "CONTENT_WARNING_SAFE",
+        "sources": [
+          {
+            "id": 1596411039134168890,
+            "name": "Olympus Scanlation",
+            "language": "es",
+            "homeUrl": "https://olympusxyz.com"
+          }
+        ]
       }
     ]
   }
