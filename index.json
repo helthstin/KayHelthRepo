@@ -628,6 +628,26 @@
             "homeUrl": "https://lmtos.net"
           }
         ]
+      },
+      {
+        "name": "LikeManga",
+        "packageName": "eu.kanade.tachiyomi.extension.en.likemanga",
+        "resources": {
+          "apkUrl": "https://helthstin.github.io/KayHelthRepo/apk/kairead-en.likemanga-v1.6.0.apk",
+          "iconUrl": "https://raw.githubusercontent.com/helthstin/kairead-extensions-source/main/src/en/likemanga/res/mipmap-xhdpi/ic_launcher.png"
+        },
+        "extensionLib": "1.6",
+        "versionCode": 106000,
+        "versionName": "1.6.0",
+        "contentWarning": "CONTENT_WARNING_SAFE",
+        "sources": [
+          {
+            "id": 6236979603959140497,
+            "name": "LikeManga",
+            "language": "en",
+            "homeUrl": "https://likemanga.ink"
+          }
+        ]
       }
     ]
   }
