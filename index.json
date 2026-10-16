@@ -608,6 +608,26 @@
             "homeUrl": "https://m440.in"
           }
         ]
+      },
+      {
+        "name": "Lmtos",
+        "packageName": "eu.kanade.tachiyomi.extension.es.lmtoonline",
+        "resources": {
+          "apkUrl": "https://helthstin.github.io/KayHelthRepo/apk/kairead-es.lmtoonline-v1.6.0.apk",
+          "iconUrl": "https://raw.githubusercontent.com/helthstin/kairead-extensions-source/main/src/es/lmtoonline/res/mipmap-xhdpi/ic_launcher.png"
+        },
+        "extensionLib": "1.6",
+        "versionCode": 106000,
+        "versionName": "1.6.0",
+        "contentWarning": "CONTENT_WARNING_MIXED",
+        "sources": [
+          {
+            "id": 7732736838916328250,
+            "name": "Lmtos",
+            "language": "es",
+            "homeUrl": "https://lmtos.net"
+          }
+        ]
       }
     ]
   }
