@@ -1004,6 +1004,26 @@
             "homeUrl": "https://zonatmo.to"
           }
         ]
+      },
+      {
+        "name": "Vortex Scans",
+        "packageName": "eu.kanade.tachiyomi.extension.en.arvenscans",
+        "resources": {
+          "apkUrl": "https://helthstin.github.io/KayHelthRepo/apk/kairead-en.arvenscans-v1.6.89.apk",
+          "iconUrl": "https://raw.githubusercontent.com/helthstin/kairead-extensions-source/main/src/en/vortexscans/res/mipmap-xhdpi/ic_launcher.png"
+        },
+        "extensionLib": "1.6",
+        "versionCode": 106089,
+        "versionName": "1.6.89",
+        "contentWarning": "CONTENT_WARNING_SAFE",
+        "sources": [
+          {
+            "id": 2559570015828016575,
+            "name": "Vortex Scans",
+            "language": "en",
+            "homeUrl": "https://vortexscans.org"
+          }
+        ]
       }
     ]
   }
