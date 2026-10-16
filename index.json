@@ -688,6 +688,26 @@
             "homeUrl": "https://marmota.me"
           }
         ]
+      },
+      {
+        "name": "NexusScanlation",
+        "packageName": "eu.kanade.tachiyomi.extension.es.nexusscanlation",
+        "resources": {
+          "apkUrl": "https://helthstin.github.io/KayHelthRepo/apk/kairead-es.nexusscanlation-v1.6.6.apk",
+          "iconUrl": "https://raw.githubusercontent.com/helthstin/kairead-extensions-source/main/src/es/nexusscanlation/res/mipmap-xhdpi/ic_launcher.png"
+        },
+        "extensionLib": "1.6",
+        "versionCode": 106006,
+        "versionName": "1.6.6",
+        "contentWarning": "CONTENT_WARNING_NSFW",
+        "sources": [
+          {
+            "id": 4086183896761281232,
+            "name": "NexusScanlation",
+            "language": "es",
+            "homeUrl": "https://nexusscanlation.com"
+          }
+        ]
       }
     ]
   }
