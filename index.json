@@ -924,6 +924,26 @@
             "homeUrl": "https://flamecomics.xyz"
           }
         ]
+      },
+      {
+        "name": "Comix",
+        "packageName": "eu.kanade.tachiyomi.extension.en.comix",
+        "resources": {
+          "apkUrl": "https://helthstin.github.io/KayHelthRepo/apk/kairead-en.comix-v1.6.42.apk",
+          "iconUrl": "https://raw.githubusercontent.com/helthstin/kairead-extensions-source/main/src/en/comix/res/mipmap-xhdpi/ic_launcher.png"
+        },
+        "extensionLib": "1.6",
+        "versionCode": 106042,
+        "versionName": "1.6.42",
+        "contentWarning": "CONTENT_WARNING_MIXED",
+        "sources": [
+          {
+            "id": 7537715367149829912,
+            "name": "Comix",
+            "language": "en",
+            "homeUrl": "https://comix.to"
+          }
+        ]
       }
     ]
   }
