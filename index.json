@@ -824,6 +824,26 @@
             "homeUrl": "https://fr.novelcool.com"
           }
         ]
+      },
+      {
+        "name": "Atsumaru",
+        "packageName": "eu.kanade.tachiyomi.extension.en.atsumaru",
+        "resources": {
+          "apkUrl": "https://helthstin.github.io/KayHelthRepo/apk/kairead-en.atsumaru-v1.6.24.apk",
+          "iconUrl": "https://raw.githubusercontent.com/helthstin/kairead-extensions-source/main/src/en/atsumaru/res/mipmap-xhdpi/ic_launcher.png"
+        },
+        "extensionLib": "1.6",
+        "versionCode": 106024,
+        "versionName": "1.6.24",
+        "contentWarning": "CONTENT_WARNING_MIXED",
+        "sources": [
+          {
+            "id": 2327480808438768017,
+            "name": "Atsumaru",
+            "language": "en",
+            "homeUrl": "https://atsu.moe"
+          }
+        ]
       }
     ]
   }
