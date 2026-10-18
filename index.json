@@ -1110,6 +1110,26 @@
             "homeUrl": "https://shademanga.com"
           }
         ]
+      },
+      {
+        "name": "Taurus Fansub",
+        "packageName": "eu.kanade.tachiyomi.extension.es.taurusfansub",
+        "resources": {
+          "apkUrl": "https://helthstin.github.io/KayHelthRepo/apk/kairead-es.taurusfansub-v1.6.65.apk",
+          "iconUrl": "https://raw.githubusercontent.com/helthstin/kairead-extensions-source/main/src/es/taurusfansub/res/mipmap-xhdpi/ic_launcher.png"
+        },
+        "extensionLib": "1.6",
+        "versionCode": 106065,
+        "versionName": "1.6.65",
+        "contentWarning": "CONTENT_WARNING_SAFE",
+        "sources": [
+          {
+            "id": 5157867187592331768,
+            "name": "Taurus Fansub",
+            "language": "es",
+            "homeUrl": "https://lectortaurus.com"
+          }
+        ]
       }
     ]
   }
