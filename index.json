@@ -1044,6 +1044,26 @@
             "homeUrl": "https://capibaratraductor.com"
           }
         ]
+      },
+      {
+        "name": "Inventario Oculto",
+        "packageName": "eu.kanade.tachiyomi.extension.es.inventariooculto",
+        "resources": {
+          "apkUrl": "https://helthstin.github.io/KayHelthRepo/apk/kairead-es.inventariooculto-v1.6.55.apk",
+          "iconUrl": "https://raw.githubusercontent.com/helthstin/kairead-extensions-source/main/src/es/inventariooculto/res/mipmap-xhdpi/ic_launcher.png"
+        },
+        "extensionLib": "1.6",
+        "versionCode": 106055,
+        "versionName": "1.6.55",
+        "contentWarning": "CONTENT_WARNING_SAFE",
+        "sources": [
+          {
+            "id": 609477585841458199,
+            "name": "Inventario Oculto",
+            "language": "es",
+            "homeUrl": "https://inventariooculto.com"
+          }
+        ]
       }
     ]
   }
