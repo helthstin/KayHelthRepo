@@ -929,12 +929,12 @@
         "name": "Comix",
         "packageName": "eu.kanade.tachiyomi.extension.en.comix",
         "resources": {
-          "apkUrl": "https://helthstin.github.io/KayHelthRepo/apk/kairead-en.comix-v1.6.48.apk",
+          "apkUrl": "https://helthstin.github.io/KayHelthRepo/apk/kairead-en.comix-v1.6.49.apk",
           "iconUrl": "https://raw.githubusercontent.com/helthstin/kairead-extensions-source/main/src/en/comix/res/mipmap-xhdpi/ic_launcher.png"
         },
         "extensionLib": "1.6",
-        "versionCode": 106048,
-        "versionName": "1.6.48",
+        "versionCode": 106049,
+        "versionName": "1.6.49",
         "contentWarning": "CONTENT_WARNING_MIXED",
         "sources": [
           {
