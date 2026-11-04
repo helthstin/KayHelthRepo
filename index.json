@@ -1130,6 +1130,26 @@
             "homeUrl": "https://lectortaurus.com"
           }
         ]
+      },
+      {
+        "name": "Temple Scan",
+        "packageName": "eu.kanade.tachiyomi.extension.es.templescanesp",
+        "resources": {
+          "apkUrl": "https://helthstin.github.io/KayHelthRepo/apk/kairead-es.templescanesp-v1.6.69.apk",
+          "iconUrl": "https://raw.githubusercontent.com/helthstin/kairead-extensions-source/main/src/es/templescanesp/res/mipmap-xhdpi/ic_launcher.png"
+        },
+        "extensionLib": "1.6",
+        "versionCode": 106069,
+        "versionName": "1.6.69",
+        "contentWarning": "CONTENT_WARNING_NSFW",
+        "sources": [
+          {
+            "id": 3451196845457607826,
+            "name": "Temple Scan",
+            "language": "es",
+            "homeUrl": "https://aedexnox.syakaihoken-web.com"
+          }
+        ]
       }
     ]
   }
